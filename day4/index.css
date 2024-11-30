@@ -1,0 +1,87 @@
+/* h1{
+    color: rgb(115, 110, 225);
+}
+
+#welcome{
+    background-color: aquamarine;
+}
+.heading{
+    font-size: 30px;
+    color: rgb(130, 244, 96);
+}
+.box{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(112, 185, 245);
+}
+.box-sub{
+    background-color: rgb(74, 230, 230);
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 20px solid rgb(164, 244, 148);
+    
+
+} */
+
+.container{
+    width: 150%;
+    height: 150vh;
+    background-color: rgb(252, 229, 232);
+    position: relative;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(7, 7, 7);
+    background-color: rgb(245, 150, 61);
+    overflow: hidden;
+}
+.box-1{
+    background-color: blueviolet;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    right: 400px;
+    z-index:1;
+}
+    
+.box-2{
+    
+    background-color: rgb(72, 226, 77);
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    z-index: 4;
+    
+}
+.box-3{
+    
+    background-color: rgb(151, 220, 33);
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    z-index: 200;
+
+}
+.box-4{
+    
+    background-color: rgb(72, 175, 226);
+   position: absolute;
+   top: 550px;
+   left: 750px;
+   right: 950px;
+   z-index: 150;
+}
+.box-5{
+    background-color: cornsilk;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index:  300;
+}
